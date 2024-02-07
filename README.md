@@ -21,10 +21,6 @@ Botão de login, mas sem redirecionamento específico.
 
 ## Como Utilizar Este Projeto
 git clone https://github.com/seu-usuario/projeto-jogos-single-player.git
-<br>
-Abra o arquivo index.html para acessar a página principal.
-<br>
-Explore as páginas individuais dos jogos, a página de avaliações e a página de login.
 
 ## Licença
 Este projeto está licenciado sob a [Felipe Casale]. 
