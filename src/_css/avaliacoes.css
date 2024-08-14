@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #221636;
+}
+
+.primeirotitulo{
+    margin-bottom: 4px;
+    margin-top: 40px;
+}
+
+h2{
+    color: #ddd;
+    text-align: center;
+    /* margin-top: 80px; */
+}
+
+span{
+    color: #7B68EE;
+    text-align: center;
+}
+
+.god-of-war{
+    color: #dddd;
+
+
+}
+
+p{
+    color: #ddd;
+    padding-top: 20px;
+}
+
+.container{
+
+    height: 500px;
+    /* border: solid red; */
+    flex-direction: row;
+    display: flex;
+
+}
+
+.containerimagemdentro{
+ 
+    width: 500px;
+    height: 400px;
+
+}
+
+.containerimagem{
+
+
+    height: 500px;
+    width: 800px;
+    justify-content: space-between;
+    margin: 5px;
+    margin-top: 55px;
+
+}
+
+.avalaicao-direita{
+    text-align: center;
+    margin-top: 56px;
+}
+
+.avaliacao-esquerda{
+
+  text-align: center;
+  margin-top: 56px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:750px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 1800px;
+        text-align: center;
+    }
+
+    .containerimagem{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerimagemdentro{
+        width: 52%;
+    }
+
+    .avalaicao-direita{
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        
+    }
+
+    .nome-dos-jogos{
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+}
+
+@media screen and (max-width:950px) {
+    
+
+    .containerimagem{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerimagemdentro{
+        width: 100%;
+        height: 373px;
+    }
+
+    .avalaicao-direita{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .avaliacao-esquerda{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nome-dos-jogos{
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+}
